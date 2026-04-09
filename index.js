@@ -45,8 +45,8 @@
 
 // console.log(3**2)
 
-let num1 = 7;
-let num2 = 9;
+// let num1 = 7;
+// let num2 = 9;
 
 // console.log(num1 + num2)
 
@@ -56,24 +56,28 @@ let num2 = 9;
 
 // console.log(num2/num1)
 
-console.log(num2 % num1);
-let pricePerKg = 10000;
-let quantityBought = 15;
-let moneyPaid = 200000;
-
-console.log("Total cost:", pricePerKg * quantityBought);
-// console.log("Balance:", moneyPaid-(pricePerKg*quantityBought))
-
+// console.log(num2 % num1);
 // let pricePerKg = 10000;
 // let quantityBought = 15;
 // let moneyPaid = 200000;
 
-let totalCost = pricePerKg * quantityBought;
-let balance = moneyPaid - totalCost;
+// console.log("Total cost:", pricePerKg * quantityBought);
+// // console.log("Balance:", moneyPaid-(pricePerKg*quantityBought))
 
-// Display on the page
-document.getElementById("total").textContent = "Total cost: " + totalCost;
-document.getElementById("balance").textContent = "Balance: " + balance;
+// // let pricePerKg = 10000;
+// // let quantityBought = 15;
+// // let moneyPaid = 200000;
 
-document.getElementById("message").textContent =
-  "You bought " + quantityBought + "kgs of rice 💜";
+// let totalCost = pricePerKg * quantityBought;
+// let balance = moneyPaid - totalCost;
+
+// // Display on the page
+// document.getElementById("total").textContent = "Total cost: " + totalCost;
+// document.getElementById("balance").textContent = "Balance: " + balance;
+
+// document.getElementById("message").textContent =
+//   "You bought " + quantityBought + "kgs of rice 💜";
+
+
+
+
