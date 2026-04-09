@@ -16,18 +16,15 @@ function calculateArea(radius) {
     }
 }
 
-// let circle = {
-//     radius : 5,
-//     calculateArea:function (radius) {
-//     if (this.radius < 0) {
-//         throw new Error("Radius cannot be negative")
-//     }
-// }
-// }
-// calculateArea(
-//     3
-// )
+let circle = {
+    radius : 5,
+    calculateArea:function (radius) {
+    if (this.radius < 0) {
+        throw new Error("Radius cannot be negative")
+    }
+}
+}
 
-// circle.calculateArea(
-//     5
-// )
+    3
+
+
